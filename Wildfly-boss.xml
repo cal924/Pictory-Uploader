@@ -1,0 +1,79 @@
+
+DEC
+18
+Wildfly 8.x : Control maximum number of connections (threads) assigned to an application
+In Wildfly, multiple applications can be deployed together. With the default configuration, there is no control on the maximum number of connections/threads assigned to any particular application. This blog describes configurations needed to restrict maximum number of threads assigned to any application. That way if one of the applications hang (consuming all the threads assigned to it), other applications will not be impacted.
+
+Following steps will make sure that one of the applications (Referred as "myapp" below) will be associated with a different virtual server and host in wildfly w.r.t other applications. Also, maximum number of connections allocated to that application will be controlled by WildFly.
+
+1. Add jboss-web.xml under WEB-INF directory for the application war under question (in addition to the web.xml located at the same location) :
+
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-web xmlns="http://www.jboss.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.jboss.com/xml/ns/javaee http://www.jboss.org/j2ee/schema/jboss-web_8_0.xsd">
+   <context-root>/myapp</context-root>
+   <virtual-host>myapp-host</virtual-host>
+   <server-instance>myapp-server</server-instance>
+</jboss-web>
+
+2. Add the new virtual server (with name "myapp-server") in standalone.xml. The corresponding virtual host is associated with a filter named "limit-connections". This filter controls maximum number of connections. Also, add a new socket-binding.
+
+ <subsystem xmlns="urn:jboss:domain:undertow:1.2">
+    <buffer-cache name="default"/>
+    <server name="default-server">
+        <http-listener name="default" socket-binding="http"/>
+        <https-listener name="secure" socket-binding="https" security-realm="ssl-realm"/>
+        <host name="default-host" alias="localhost">
+            <location name="/" handler="welcome-content"/>
+            <filter-ref name="server-header"/>
+            <filter-ref name="x-powered-by-header"/>
+        </host>
+    </server>
+    <server name="myapp-server" default-host="myapp-host">
+        <http-listener name="myapp-listener" socket-binding="myapp-manager"/>
+        <host name="myapp-host" alias="localhost">
+            <location name="/" handler="welcome-content"/>
+            <filter-ref name="limit-connections"/>
+        </host>
+    </server>
+    <servlet-container name="default">
+        <jsp-config/>
+        <websockets/>
+    </servlet-container>
+    <handlers>
+        <file name="welcome-content" path="${jboss.home.dir}/welcome-content"/>
+    </handlers>
+    <filters>
+        <connection-limit name="limit-connections" max-concurrent-requests="5" queue-size="100"/>
+        <response-header name="server-header" header-name="Server" header-value="WildFly/8"/>
+        <response-header name="x-powered-by-header" header-name="X-Powered-By" header-value="Undertow/1"/>
+    </filters>
+</subsystem>
+
+
+<socket-binding-group name="standard-sockets" default-interface="public" port-offset="${jboss.socket.binding.port-offset:0}">
+    <socket-binding name="management-http" interface="management" port="${jboss.management.http.port:9990}"/>
+    <socket-binding name="management-https" interface="management" port="${jboss.management.https.port:9993}"/>
+    <socket-binding name="ajp" port="${jboss.ajp.port:8009}"/>
+    <socket-binding name="http" port="${jboss.http.port:8080}"/>
+    <socket-binding name="https" port="${jboss.https.port:8443}"/>
+    <socket-binding name="jacorb" interface="unsecure" port="3528"/>
+    <socket-binding name="jacorb-ssl" interface="unsecure" port="3529"/>
+    <socket-binding name="messaging-group" port="0" multicast-address="${jboss.messaging.group.address:231.7.7.7}" multicast-port="${jboss.messaging.group.port:9876}"/>
+    <socket-binding name="txn-recovery-environment" port="4712"/>
+    <socket-binding name="txn-status-manager" port="4713"/>
+    <socket-binding name="myapp-manager" port="8282"/>
+    <outbound-socket-binding name="mail-smtp">
+        <remote-destination host="localhost" port="25"/>
+    </outbound-socket-binding>
+</socket-binding-group>
+
+That's all. Now Wildfly will take care of controlling maximum number of threads/connections assigned to my app.
+
+Reference:
+
+JBoss Discussion
+Stackoverflow
+Posted 18th December 2015 by Arnab Biswas
+Labels: wildfly wildfly-8
+  
+0  Add a comment
