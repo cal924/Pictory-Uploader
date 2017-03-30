@@ -1,0 +1,63 @@
+DMS與BDL功能簡介
+每一個單據都會在DMS裡有一個對應的資料夾來處理其附件
+e.g.       當儲存Reporting Line單據 “ctype9” 時而附有附件時, 會有一個對應的資料夾\Attachment\picType\ctype9\
+ 
+           而這個資料夾會作為所有 在單據”ctype9”的附件 預設 的儲存位置 (下稱「單據預定資料夾」)
+ 
+單據預定資料夾的路徑的位置會取決於Attachment Settings裡的設定(PPR DMS01-02-03)
+ 
+ 
+儲存單據時, 
+1.	如果當前單據未有單據預定資料夾, 將會直接生成資料夾, 名稱會按照Attach Setting中的設定(PPR DMS-01-03-04)
+ 
+2.	每一次儲存單據, 都會更新資料夾的以下資料
+a.	會啟用資料夾的Data Access功能
+ 
+ 
+b.	會把當前儲存單據的模塊的Attachment相關Role Right複製到Module Right部份(PPR DMS-01-11)
+ 
+ 
+c.	若果當前Record有使用Data Access Control, 也會把這些資料複製到資料夾 (PPR DMS-01-11)
+  
+d.	然後, 每一個(Save Outside Folder沒有勾選的)附件, 都會在該Folder生成一個檔案
+i.	檔案名稱會按照標題 (PPR DMS01-03-03), 而Attachment的Password Encryption也會在這裡複製過去
+ 
+ii.	注意: 雖然Document Record裡看到Author, Tags那些資料, 但這些資料只儲存在單據附件, 沒有複製到Document Record.
+
+
+ 
+基本上, 任何在單據預定資料夾的改動都會直接更新到單據, 例如
+•	上傳檔案
+•	刪除檔案
+•	更改檔案屬性(e.g.檔案內容, 名稱)) (以下會詳述)
+•	從另一個位置移動/挎貝檔案
+
+ 
+當你進入Document Record模塊時, 一般的資料夾/ 檔案是不會有Related record相關欄位.
+ 
+ 
+ 
+如果是單據資料夾, 會顯示Related Record資料(唯讀), 之後可以經NameCard直接進入模塊.
+ 
+如果是附件檔案的話, Related Record更會顯示Attachment本身的資料, 方便用戶直接修改.
+ 
+ 
+在單據的Attachment Dialog裡, 提供有另外一個選項: “Save Outside Folder”
+這個功能的目的是, 把某個檔案放在預設資料夾以外的位置, 可能是基於Privacy(注:現時的AccessControl是Folder based的), 又或者是其他個人喜好的問題
+(FW要求)
+例如我可以設定ctype9單據的其中一些附件放在其他資料夾, 那這兩個檔案就會放在單據預定資料夾以外的位置.
+ 
+一般例子:
+/Attachment/picType/ctype9/File.txt
+/Attachment/picType/ctype8/
+/New Folder/File2.txt
+/New Folder2/
+1.	把File2.txt移至ctype9 
+=> 新增File2.txt成單據ctype9的附件
+2.	把File.txt 由ctype9複製至ctype8
+=>新增File.txt成單據ctype8的附件, 另維持ctype9的附件狀態不變
+3.	把File.txt 從ctype9剪下, 貼上至ctype8
+=>新增File.txt成單據ctype8的附件, 移除ctype9的附件File.txt
+4.	把File.txt從ctype9剪下, 貼上至New Folder2   /   刪除File.txt
+=>移除ctype9的附件File.txt
+
