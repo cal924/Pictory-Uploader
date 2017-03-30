@@ -1,0 +1,85 @@
+Item No.,大?,小?,功能?,基本要求,?段目?,?估MD,Remark,TFS Item,PIC,Status,ETD,last ETD,Delay Reason,Is Solution Ready,Solution PIC,Solution ETD,Solution Last ETD,Required by,Source Doc,Source Doc Ref. No.
+DMS-01-01,DMS,BDL,附件管理 - 基本功能,batch upload/ delete is allowed,2016年4月,,,,,Resolved,,,,Y,,,,TRD,TRD Todo-List-20150522.xlsx,
+DMS-01-02-01,DMS,BDL,DMS preference setting - File type allowed ,,2016年11月,,,,Calvin Tam,Resolved,,,,Y,,,,FW,,
+DMS-01-02-02,DMS,BDL,DMS preference setting - Limit of file size allowed,,2016年11月,,,,Calvin Tam,Resolved,,,,Y,,,,FW,,
+DMS-01-02-03,DMS,BDL,DMS preference setting - Default file location ,"Setup attachment saving location in DMS using [DMS preference setting], user can change the setting in [user option]",2016年11月,,,,Calvin Tam,Resolved,2016-11-25,,,Y,,,,FW,,
+DMS-01-03-01,DMS,BDL,Save Attachment - select folder,"When an attachment is saved, user can select the folder from DMS.
+FW: should allow user to select specific folder to save the attachment, instead of always saving to default folder",2016年11月,,,,Calvin Tam,Resolved,2016-11-29,2016-11-25,2016/11/25 ???估有?，延??天,Y,,,,FW,,
+DMS-01-03-02,DMS,BDL,Save Attachment - create sub-folder,"When an attachment is saved, a sub-folder = primary code will be created under the selected folder ( by default) ",2016年11月,,,,Calvin Tam,Resolved,,,,Y,,,,FW,,
+DMS-01-03-03,DMS,BDL,Save Attachment - File name,File name of the file added to the selected folder = title of the attachment ,2016年11月,,,,Calvin Tam,Resolved,,,,Y,,,,FW,,
+DMS-01-03-04,DMS,BDL,Save Attachment - Configurable Sub-folder name,Sub-folder name is configurable by end-user,2016年11月,,only a single-field-combo box is provided for end-user to configure,,Calvin Tam,Resolved,2016-11-29,2016-11-25,2016/11/25 ???估有?，延??天,Y,,,,FW,,
+DMS-01-03-05,DMS,BDL,Save Attachment - Other Info,"When an attachment is saved, the followings can be edited
+- Authors ( default = user name who upload the file)
+- Title ( originally the field is named as <description>
+- Tags
+- Comment ( memo field)  ",2016年11月,,,,Calvin Tam,Resolved,2016-11-25,,,Y,,,,FW,,
+DMS-01-03-06,DMS,BDL,Save Attachment - Configurable Tags,User can add 'tags' to an attachment from header fields of source transaction,2016年11月,,,,Calvin Tam,Resolved,2016-11-25,,,Y,,,,FW,,
+DMS-01-03-07,DMS,BDL,Save Attachment - Auto assign <ID>,"uniqueness, auto generated like work item no. in TFS",2016年11月,,,,Calvin Tam,Resolved,,,,Y,,,,FW,,
+DMS-01-03-08,DMS,BDL,Save Attachment - Auto assign < Internal version>,auto update when the attachment having the same ID is overwritten,2016年11月,,,,Calvin Tam,Resolved,2016-11-25,,,Y,,,,FW,,
+DMS-01-03-09,DMS,BDL,Save Attachment - Safety Option,"Save options as below will be provided when an attachment is saved 
+- Read-only recommended 
+- Password to open",2016年11月,,Read-only recommended hasn't been completed,,Calvin Tam,Resolved,2016-11-25,,,Y,,,,FW,,
+DMS-01-04,DMS,BDL,The attachment can be opened/ previewed thru Name Card ,,?,,,,Calvin Tam,Rejected,,,,NA,,,,FW,,
+DMS-01-05,DMS,BDL,Search Attachment by keywords,"The attachment in DMS can be searched by any of below fields
+- Authors ( default = user name who upload the file)
+- Title ( originally the field is named as <description>)
+- Tags
+- Comment ( memo field)
+- Date modified ( auto updated) 
+- Type (auto assigned) ",2016年11月,,,,Calvin Tam,Resolved,2016-11-25,,,Y,,,,FW,,
+DMS-01-06,DMS,BDL,Short-cut Keys for add / open/ delete the attachment,short-cut keys are provided for user to add / open/ delete the attachment ( i.e. keyboard driven is supported),2016年11月,,,,Calvin Tam,Rejected,,,,Y,,,,FW,,
+DMS-01-07,DMS,BDL,Attachment Logs in Audit Trail,An individual log is required to capture who add / update / delete the attachment (in audit trail),2016年11月,,,,Calvin Tam,Resolved,,,,Y,,,,FW,,
+DMS-01-08,DMS,BDL,Live Preview,Can Live Preview be supported ? ( i.e. a preview pane is provided in Name Card),2016年11月,,,,Calvin Tam,Rejected,,,,Y,,,,FW,,
+DMS-01-09,DMS,BDL,Subscription function,Subscription function: Email / System alert will be sent to subscriber when new attachment is added / updated / removed / renamed in the folder,2016年11月,,,,Calvin Tam,Resolved,2016-11-25,,,Y,,,,FW,,
+DMS-01-10,DMS,BDL,Upload File through API,,2016年11月,,,,Calvin Tam,Resolved,,,,Y,,,,FW,,
+DMS-01-11,DMS,BDL,附件管理 - ?限,"DMS 文件夾和 文件Attachment裡面的Right都分成三種: Write(Add, upload, edit), View, Delete
+-> 需要兩邊同步, 例如Employee 模塊對應於 /Attachment/Employee/
+如果Employee的Attachment Right 設定為 Upload(RoleA, RoleB), Read(RoleC), Delete(RoleD)
+那每一個employee Folder (e.g.  /Attachment/Employee/EMP001/ ) 的Folder Right 也會是Upload(RoleA, RoleB), Read(RoleC), Delete(RoleD)
+而每次更新Employee的Attachment Right都會直接更新DMS裡的Folder Right",2016年12月,,,,Calvin Tam,Resolved,2016-12-05,2016-12-05,2016/12/2：Iran review code后有一些代??构要?整，ETD延?几天,Y,,,,TRD,,
+DMS-01-12,DMS,BDL,?片 - DMS整合,只要做到在DMS上的圖片都可以生成圖片連結供其他模塊使用就好了,2016年11月,,,,Calvin Tam,Resolved,2016-11-30,,,Y,,,,TRD,,
+DMS-01-13,DMS,BDL,上??片大小和?型限制,,2016年12月,,,139186,Calvin Tam,Resolved,2016-12-30,,,Y,,,,TRD,,
+DMS-02-01,DMS,DMS,DMS V3.2的基本功能,"user-friendliness is required to review  
+(FW: No need to include document attribute x 5, billboard and rating function)",2016年11月,,,,Calvin Tam,Resolved,2016-11-25,,,Y,,,,FW,,
+DMS-02-01-01,DMS,DMS,DMS V3.2的基本功能 - 分享鏈接功能,,2016年11月,,,,Calvin Tam,Resolved,2016-11-25,,,Y,,,,FW,,
+DMS-02-01-02,DMS,DMS,DMS V3.2的基本功能 - 文檔更新功能,支持走獨立的工作流,2016年12月,,,,Calvin Tam,Resolved,2016-12-23,2016-12-21,"2016/12/9：需要等流程的修改
+2016/12/23：插入UDF MENU的任?",Y,,,,FW,,
+DMS-02-01-03,DMS,DMS,DMS V3.2的基本功能 - 文檔訂閱功能,,2016年11月,,,,Calvin Tam,Resolved,2016-11-25,,,Y,,,,FW,,
+DMS-02-01-04,DMS,DMS,DMS V3.2的基本功能 - 文檔導出功能,只要做到同一個Folder上 highlight幾個folder打包下載就可以,2016年11月,,,,Calvin Tam,Resolved,2016-11-30,,,Y,,,,FW,,
+DMS-02-01-05,DMS,DMS,DMS V3.2的基本功能 - 權限,按folder設置權限,2016年11月,,,,Calvin Tam,Resolved,2016-11-25,,,Y,,,,FW,,
+DMS-02-02,DMS,DMS,The location of the folder can be re-arranged by drag and drop,,2016年11月,,,,Calvin Tam,Resolved,,,,Y,,,,FW,,
+DMS-02-03,DMS,DMS,Sub-folder can be created directly from selected folder,by introducing  a‘+’ sign in <action> column ,2016年11月,,,,Calvin Tam,Resolved,,,,Y,,,,FW,,
+DMS-02-04,DMS,DMS,Sort by ( like Windows Explorer) is provided ,"Sort by ( like Windows Explorer) is provided 
+- Name
+- Date Modified 
+- Type",2016年11月,,,,Calvin Tam,Resolved,,,,Y,,,,FW,,
+DMS-02-05,DMS,DMS,New folder,"A short-cut <New folder > is provided ( like Windows Explorer) . When <new folder> is created, user is only required to input the folder name ( other attributes are auto assigned , unless user click ‘edit’ to amend it ) ",2016年11月,,,,Calvin Tam,Resolved,,,,Y,,,,FW,,
+DMS-02-06,DMS,DMS,Open folder,"A short-cut <Open> is provided if specific folder is selected. When <open> is clicked, folder is opened accordingly ",2016年11月,,,,Calvin Tam,Resolved,2016-11-25,,,Y,,,,FW,,
+DMS-02-07,DMS,DMS,Delete folder,"When a folder is selected to delete , more comprehensive information is provided in the dialog ( like Windows Explorer)",2016年11月,,,,Calvin Tam,Resolved,2016-11-25,,,Y,,,,FW,,
+DMS-02-08,DMS,DMS,Status Bar,A status bar is required to display more information of selected folder ,2016年11月,,,,Calvin Tam,Resolved,,,,Y,,,,FW,,
+DMS-02-09,DMS,DMS,Search Option,"Search option in DMS should 
+- Include subfolders in search results when searching in file folder
+- Find partial matches
+(FW: Done thru API)",2016年11月,,,,Calvin Tam,Resolved,2016-11-25,,,Y,,,,FW,,
+DMS-02-10-01,DMS,DMS,Locate to My Desktop,"Allow to create shortcut and locate the selected folder / file to My Desktop 
+(FW: Add a block on ""My Desktop"" to display shortcuts, clicking on shortcut will download the attachment directly, if the shortcut is a folder, the folder will be opened in DMS)",2016年12月,,"Widget方面打算用上EditTable, ?在等待Jerry ?EditTable加入actionPerformed/ actionListener之?的attribute",,Calvin Tam,Resolved,2016-12-06,TBC,2016/11/25：等Jerry修改edittable后再?理,Y,,,,FW,,
+DMS-02-10-02,DMS,DMS,Locate to My Desktop - directly open,Study feasibility of directly open attachment after clicking a shortcut,TBC,,ETD = 2017 Q2,,,,,,,N,Calvin,,,FW,,
+DMS-02-11,DMS,DMS,always available offline,Will option like ‘always available offline’ be provided when a folder/ subfolder is created,?,,,,,Rejected,,,,,,,,,,
+DMS-02-12,DMS,DMS,preview pane,Can a preview pane be provided? ,?,,,,,Rejected,,,,,,,,,,
+DMS-02-13,DMS,DMS,Auto-Archive Setting,"Auto-Archive Setting (setup per folder)
+ - Move old items to default archive folder
+ - Move old items to specific folder
+ - Permanently delete old item
+(old item include files only, sub-folder will not be treated as old item)
+(archived file will no longer appear as attachment in the corresponding record)",2016年11月,,,,Calvin Tam,Resolved,2016-11-25,,,Y,,,,FW,,
+DMS-02-14,DMS,DMS,My Desktop Plugin - recent uploaded files,"A block will be added on ""My Desktop"" to display recent uploaded files list (only recent files that the user can accessed will be shown)",2016年12月,,"Widget方面打算用上EditTable, ?在等待Jerry ?EditTable加入actionPerformed/ actionListener之?的attribute",,Calvin Tam,Resolved,2016-12-06,TBC,2016/11/25：等Jerry修改edittable后再?理,Y,,,,FW,,
+DMS-02-15,DMS,Stress Test,Upload, - Upload around 1TB of files to the DMS,2017年3月,,,,Calvin Tam,Pending,TBC,2017-02-28,"2016/12/2：DMS完整功能?未完成，ETD?延
+2016/12/9：???境?搭建好
+2016/12/16：Iran review后??星期主要在?整代?和修复bugs
+2016/12/30：已?始??，??AP休假，?未确??度
+2017/1/13：用jmeter????多人同時上下載/ 讀取資料夾的效能
+2017/2/10：?在持???
+2017/2/28：暫時比較大的問題是, 同是有太多人連接server, Server會有些thread壞掉的問題。Calvin最近修复DMS Bugs，此????置",Y,,,,FW,,
+DMS-02-16,DMS,DMS,??功能?整 - 改??人行?,,2017年3月,,,142854,Calvin Tam,Resolved,2016-03-06,,,Y,,,,SL,,
+DMS-02-17,DMS,DMS,文?管理插件改?使用Windows Theme,,2017年3月,,,142914,Calvin Tam,Proposed,2016-03-10,,,Y,,,,SL,,
+DMS-02-18,DMS,DMS,修改文件流?取方式,?文件流的?取方式?行修改，以支持云部署后仍能正常使用,2017年3月,,,144284,Calvin Tam,Active,2017-03-28,,,Y,,,,SL,,
