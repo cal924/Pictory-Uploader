@@ -1,0 +1,93 @@
+Work Item Type,ID,Title,,State,Severity,MAC Responsible By,Status,My Work State,Ask SSE,,
+Task,133699,[DMS] File Mangement Component,,Resolved,Unclassified,Peter Chan,,,,,FALSE
+Bug,143268,[CE01] TRD-PL- Dialog¡A¦s¦b«O¦s¦¨¥\/¥¢??¡A´£¥Ü«H®§ªº?¥Ü¤è¦¡??,Misg.,Resolved,Medium,Phoebe Luo,,,,,FALSE
+Bug,143267,[CE01] TRD-PL- DMS¡Aattachmentªºfile info¡Acreate linkªº¤¤¤åÂ½?¤£¥¿ÚÌ,Misg.,Resolved,Medium,Phoebe Luo,,,,,FALSE
+Bug,143261,[CE01] TRD-PL- DMS¡A­×§ïRead Only Recommendedªº­È¦Z¤£¯à¥¿ÚÌ«O¦s,,Resolved,High,Phoebe Luo,,,,,FALSE
+Bug,143504,[CE01] TRD-JS-¡iDMS¡jDocument Record ¡V ¥´?¬Y¨Ç?Õu¡A?¦³??´£¥Ü,General,Resolved,High,Jessica Shao,,,,,FALSE
+Bug,141941,[CE01] TRD-PL- Document management system¡A¬É­±?¥Ü????,Misc.,Resolved,High,Phoebe Luo,,,,,FALSE
+Bug,141942,[CE01] TRD-OX - ¤Á?¨t??¨¥?¡A?­±¤@ª½¦b¥[?¤¤(¤å?ºÞ²z),Misc.,Resolved,High,Olivia Xu,,,,,FALSE
+Bug,141948,[CE01] TRD-JS- ¡iDocument Record¡j¼Ò?¡A§ó·sªþ¥ó¡A¤U???¬O­ì©l¤å?,General,Resolved,High,Jessica Shao,,,,,FALSE
+Bug,141951,[CE01] TRD-PL- Document management system¡AFile info¤¤¯Ê¤Ö¦r¬q,General,Resolved,High,Phoebe Luo,,,,,FALSE
+Bug,142899,[CE01] TRD-JS-¡iDocument Change Record¡j?Õu§å®Ö§¹¦¨¦Z¡AStatus¤´µM?In Progress,Misc.,Resolved,High,Jessica Shao,,,,,FALSE
+Bug,142876,"[CE01] TRD-PL- DMS,¬d¬Ý³¡¤À¤å¥ó©Mfolderªºfile info??",Severe,Resolved,High,Phoebe Luo,,,,,FALSE
+Bug,141972,[CE01] TRD-PL- Attachment¡Aªþ¥ó?°£©ÎªÌ?°£ªþ¥ó©Ò¦b?Õu¦Z¡A¥¼?°£DMS¤¤ªºªþ¥ó,General-Delete,Resolved,High,Phoebe Luo,,,,,FALSE
+Bug,141973,[CE01] TRD-JS- ¡iDocument Record¡j¼Ò?¡ADuration«O¦s¥¢?,General,Resolved,High,Jessica Shao,,,,,FALSE
+Bug,142091,[CE01] TRD-JS-¡iDocument Change Record¡j¬Û???,AttachmentMovement,Active,High,Jessica Shao,,,Relate Bug 141984,,FALSE
+Bug,141988,[CE01] TRD-PL- «Ø?¥i¥H¦bDMS¤¤??folder/¤å¥óªºdate Access¡BArchive¡BSubscription«H®§,General,Resolved,Medium,Phoebe Luo,,,,,FALSE
+Bug,142837,[ch01] ¡i¼Ò??­­?©w¡j¤¤ªº?­­¡§ªþ¥ó¡]²¾°£¡^¡¨¦Z¡A¼ÒªO/¯ó½Zªºªþ¥ó¯à?¦æ?°£¾Þ§@,General,Resolved,Low,Cara Chen,,,,,FALSE
+Bug,142027,[CE01] TRD-PL- DMS¡A?¤å¥ó²¾¥X??ªº¥Ø?¡A¥¼¥¿ÚÌ¦¬¨ì??§ó·sªº´£¿ô/Email,Subscription,Resolved,High,Phoebe Luo,,,,,FALSE
+Bug,142031,[CE01] TRD-PL- DMS¡A¦b??¥Ø?¤U·s¼W/­×§ï/?°£folder¡A?àD???´£¿ô,Subscription,Resolved,High,Phoebe Luo,,,,,FALSE
+Bug,142134,[CE01] TRD-OX - ¡i¤å?ºÞ²z¡jReload«ö?¦³?­Ô?®ÄªG,General-Reload,Resolved,Medium,Olivia Xu,,,,,FALSE
+Bug,142056,[CE01] TRD-PL- Attachment Setting¡A«O¦s?¸m¦Z¡A?ÌÛ??¦Û?¦¬°_,General,Resolved,Low,Phoebe Luo,,,,,FALSE
+Bug,142057,[CE01] TRD-JS- ??¥\¯àªº¬Û?«Ø?,Subscription,Resolved,Medium,Jessica Shao,,,,,FALSE
+Bug,142062,[CE01] TRD-JS- ¦b¡iDocument Record¡j¤¤·s«Øªº¤å?¡A¦b¡iDocument Change Record¡j¤¤?¦³¬Û???,Misc.,Resolved,High,Jessica Shao,,,,,FALSE
+Bug,142128,[CE01] TRD-JS-¡iDocument Record¡j- ¬O§_¥i¥H¦³¦P¦WªºFolder¤ÎDocument,DupName,Active,Medium,Jessica Shao,,,Related Bug 142154,,FALSE
+Bug,142067,[CE01] TRD-JS-¡iDocument Change Record¡j- ?¨ú¤å???¦Z¡A?ªk¤U?­ì¤å?,General-Reload,Resolved,High,Jessica Shao,,,,,FALSE
+Bug,142115,[CE01] TRD-JS-¡iDocument Record¡j- ª©¥»¤ñ?ªº¬Û???,CompareVersion,Resolved,Medium,Jessica Shao,,,,,FALSE
+Bug,142154,[CE01] TRD-JS-DMS ¡V ²¾?¤å¥ó??¡A?¦³¦Ò?¤å¥ó?¤£¯à­«¦Wªº??,DupName,Active,High,Jessica Shao,,,Shine Email 20170221,,FALSE
+Bug,142085,[CE01] TRD-OX - ¡i¤å?ºÞ²z¡j©w¦ì¦ÜRoot¤å¥ó??¡A??Download¡A?¥Ü¤å¥ó?®×¤£¥þ,,Resolved,High,Olivia Xu,,,,,FALSE
+Bug,142086,[CE01] TRD-OX - ¡i¤å?ºÞ²z¡jDownloadµ¡¤f¡AFile Path???¥e¥ÎPassword¦æªº¦ì¸m,Misc.,Resolved,Medium,Olivia Xu,,,,,FALSE
+Bug,142087,[CE01] TRD-OX - ¡i¤å?ºÞ²z¡jDownload¦h??®×?¡A?¤J³¡¤À?®×ªº¥¿ÚÌ±K?¡A?¦³¤U?¤å?,,Resolved,High,Olivia Xu,,,,,FALSE
+Bug,142088,[CE01] TRD-OX - ¡i¤å?ºÞ²z¡j«Ø?§ó§ïDownloadµ¡¤fTitle,,Resolved,Medium,Olivia Xu,,,,,FALSE
+Bug,142089,"[CE01] TRD-PL- Attachment setting,?¨ú¯ó½Z??",,Resolved,High,Phoebe Luo,,,,,FALSE
+Bug,142090,[CE01] TRD-OX - ¡i¤å?ºÞ²z¡j¤å¥ó?¥]§t¦h??®×?¡A??Download¡A?¦³¤U?¤£»Ý­n±K?ªº?®×,,Resolved,High,Olivia Xu,,,,,FALSE
+Bug,142096,[CE01] TRD-PL- Attachment setting ¡V version change highlight¡A³¡¤À¦r¬q¤£¦P¥¼??,CompareVersion,Resolved,High,Phoebe Luo,,,,,FALSE
+Bug,142092,"[CE01] TRD-PL- Attachment setting,¦³­×§ï?¥¼«O¦s?¡A¤Á?¨ì¨ä¥L¼Ò??¡A?´£¥Ü«H®§",,Resolved,Medium,Phoebe Luo,,,,,FALSE
+Bug,142084,[CE01] TRD-PL- DMS¡A¤l¥Ø?¤ä«ù¤W?ªº¤å??«¬©M¤j¤p¥i¥H¤ñ¤÷¥Ø?ªº­S?¤j,Misc.,Active,High,Phoebe Luo,,,Shine Email 20170221,,FALSE
+Bug,142097,[CE01] TRD-PL- Attachment setting¡A­×§ïtag¦r¬qªº­È¦Z¡A?¼v??¥vª©¥»¤¤ªº?Õu,,Resolved,High,Phoebe Luo,,,,,FALSE
+Bug,142105,[CE01] TRD-OX - ¦bDesktop§ó·sDMS Widget¦Z¡A¦b®à­±¤W??¨ê·s¾Þ§@?®Ä,General-Reload,Resolved,Medium,Olivia Xu,,,,,FALSE
+Bug,142104,[CE01] TRD-JS-¡iDocument Change Record¡j- ?¸m¤F±K?¡A¦ý¬O??¦³§ó·s¨ì¤å?¤¤,Misc.,Resolved,High,Jessica Shao,,,,,FALSE
+Bug,141984,[CE01] TRD-PL- DMS¡A¦pªG²¾?ªþ¥ó¦ì¸m¡A?­ì©l?Õu¤¤?ªk°l¬d¨ìªþ¥óªº¦s?¦ì¸m,AttachmentMovement,Active,High,Phoebe Luo,,,Shine Email 20170221,,FALSE
+Bug,142121,[CE01] TRD-JS-¡iDocument Record¡j- ¤÷¤å¥ó?¤£¯à?°£ªº´£¥Ü?¦³¥[mess,General-Delete,Resolved,Medium,Jessica Shao,,,,,FALSE
+Task,142914,[DMS] ¤å?ºÞ²z´¡¥ó§ï?¨Ï¥ÎWindows Theme,Theme,Resolved,Unclassified,Calvin Tam,,,,,FALSE
+Bug,142132,[CE01] TRD-JS-¡iDocument Record¡j- ¨Ï¥Î¤w¦³?Õu«Ø¥ß¯ó½Z¡A¦bDraft¦Cªí¤¤?¦³?Õuªº¬Û?«H®§,,Resolved,Medium,Jessica Shao,,,,,FALSE
+Bug,142066,[CE01] TRD-JS-¡iDocument Record¡j-?¥ÎArchive¡A¨ì¤F?´y??¡A?¸m¥¼¥Í®Ä,Archive,Resolved,High,Jessica Shao,,,,,FALSE
+Bug,142141,[CE01] TRD-JS-¡iDocument Change Record¡j- ?Õu°e§å¦Z¡A?¦³Approval??,Approval,Resolved,High,Jessica Shao,,,,,FALSE
+Bug,142147,[CE01] TRD-OX - ¡i¤å?ºÞ²z¡j«Ø?Upload Files?¥Xµ¡¤f¥i¥H¥þ«Ì?¥Ü,,Resolved,Low,Olivia Xu,,,,,FALSE
+Bug,141968,[CE01] TRD-PL- Attachment¡A¤W?©Î?°£ªþ¥ó¦Z¡AAudit Trail¤¤ªº??¤£­ãÚÌ,General,Active,High,Phoebe Luo,,,Shine Email 20170221,,FALSE
+Bug,142157,[CE01] TRD-JS- Approval Setup¤¤¤ä«ùªºDMS¼Ò?ÉO¬yµ{¼ÒªO¤¤ªº¤£¤@­P,,Resolved,High,Jessica Shao,,,,,FALSE
+Bug,142162,[CE01] TRD-JS- ¡iDocument Change Record¡j¼Ò?¡A¥Ø«e¤£¤ä«ùRename¥\¯à,,Resolved,Low,Jessica Shao,,,,,FALSE
+Bug,142178,[CE01] TRD-OX - ¡i¤å?ºÞ²z¡jDisplay Optionsµ¡¤fTitle?¥Ü­«Î`,,Resolved,Low,Olivia Xu,,,,,FALSE
+Bug,142184,[CE01] TRD-OX - ¡i¤å?ºÞ²z¡j¤å¥ó??ªÅ??¥ÜFoldes first©MAlso Tree View??,Misc.,Resolved,Medium,Olivia Xu,,,,,FALSE
+Bug,142231,[CE01] TRD-PL- Attachment¡A¤@??Õu¤¤?¸m??¥H¤Wªºªþ¥ó±K??¡A?­±??,,Resolved,High,Phoebe Luo,,,,,FALSE
+Bug,142262,[CE01] TRD-JS-¡iDocument Record¡j- ¤å¥ó¸ô??ªÅ,,Resolved,High,Jessica Shao,,,,,FALSE
+Bug,142672,[CH01] Unable to download attachments in any record in any module,Severe,Resolved,High,Terry Yeung,,,,,FALSE
+Bug,142716,[CE01] TRD-JS-¤å?¤À¨É?±µ¡A¦b¦¬¨ìªº¨t?´£¿ô¤¤¡A?ªkª½±µ¤U?¤å?,Misc.,Resolved,Medium,Jessica Shao,,,,,FALSE
+Bug,142000,[CE01] TRD-PL- Document Record¡ADate Access????,Access,Resolved,High,Phoebe Luo,,,,,FALSE
+Bug,141927,[CE01] TRD-PL- Attachment¡A?ªþ¥ó«ü©w¥Ø?¡A¤W?¦Z¡A¥¼¦b«ü©w¥Ø?¤U·s«Ø¤l¤å¥ó?,AttachmentMovement,Active,High,Phoebe Luo,,,Shine Email 20170222,,FALSE
+Task,142854,[DMS] ??¥\¯à?¾ã - §ï??¤H¦æ?,Subscription,Resolved,High,Calvin Tam,,,,,FALSE
+Bug,142078,[CE01] TRD-PL- DMS¡A³¡¤À§t¦³¤å¥óªºfolder¤ä«ù?°£¡A³¡¤À¤£¤ä«ù,General-Delete,Active,High,Phoebe Luo,,,Shine Email 20170228,,FALSE
+Bug,142052,[CE01] TRD-OX - ¡i¤å?ºÞ²z¡jSearch Option³q?Full text·j¯Á¥¢?,Search,Active,High,Olivia Xu,,,,,TRUE
+Bug,141958,[CE01] TRD-PL- Document management system¡A¤ä«ù·j¯Áªº?«¬¤£¥þ,Search,Active,High,Phoebe Luo,,,,,TRUE
+Bug,141938,"[CE01] TRD-PL- Attachment , ªþ¥óªºtag????",General,Active,High,Phoebe Luo,,,,,TRUE
+Bug,141918,[CE01] TRD-PL- Attachment¡A?¸mªþ¥óread only recommend?true¡Aªþ¥ó¥i¥H³Q­×§ï©Î?°£,Misc.,Active,High,Phoebe Luo,,,,,TRUE
+Task,139775,[GE] Online help Tool Research,,Active,High,Calvin Tam,,,,,
+Bug,142894,[CE01] TRD-JS-§ó·sªº¤å?¦W?ÉO¤w¦³Title¤£¦P?¡A«Ø???¬O§_»Ý­n§ó§ïTitle,General,Resolved,Low,Jessica Shao,,,,,FALSE
+Bug,142818,[CH01] Version Change Highlight cannot show the change in Attachments,CompareVersion,Resolved,High,Terry Yeung,,,,,FALSE
+Task,144284,[DMS] ­×§ï¤å¥ó¬y?¨ú¤è¦¡,,Active,High,Calvin Tam,,,,,TRUE
+,,,,emp,,,,,,,FALSE
+,,,,emp,,,,,,,FALSE
+,,,,emp,,,,,,,FALSE
+,,,,emp,,,,,,,FALSE
+,,,,emp,,,,,,,FALSE
+,,,,emp,,,,,,,FALSE
+,,,,emp,,,,,,,FALSE
+,,,,emp,,,,,,,FALSE
+,,,,emp,,,,,,,FALSE
+,,,,emp,,,,,,,FALSE
+,,,,emp,,,,,,,FALSE
+,,,,emp,,,,,,,FALSE
+,,,,emp,,,,,,,FALSE
+,,,,emp,,,,,,,FALSE
+,,,,emp,,,,,,,FALSE
+,,,,emp,,,,,,,FALSE
+,,,,emp,,,,,,,FALSE
+,,,,emp,,,,,,,FALSE
+,,,,emp,,,,,,,FALSE
+,,,,emp,,,,,,,FALSE
+,,,,emp,,,,,,,FALSE
+,,,,emp,,,,,,,FALSE
+,,,,emp,,,,,,,FALSE
+,,,,,,,,,,,
+,,5,,89,,,0,0,8,0,5
+,,,,14,,,,,,,
