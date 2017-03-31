@@ -1,70 +1,70 @@
 Work Item Type,ID,Title,,State,Severity,MAC Responsible By,Status,My Work State,Ask SSE,,
 Task,133699,[DMS] File Mangement Component,,Resolved,Unclassified,Peter Chan,,,,,FALSE
-Bug,143268,[CE01] TRD-PL- Dialog，存在保存成功/失??，提示信息的?示方式??,Misg.,Resolved,Medium,Phoebe Luo,,,,,FALSE
-Bug,143267,[CE01] TRD-PL- DMS，attachment的file info，create link的中文翻?不正确,Misg.,Resolved,Medium,Phoebe Luo,,,,,FALSE
-Bug,143261,[CE01] TRD-PL- DMS，修改Read Only Recommended的值后不能正确保存,,Resolved,High,Phoebe Luo,,,,,FALSE
-Bug,143504,[CE01] TRD-JS-【DMS】Document Record – 打?某些?据，?有??提示,General,Resolved,High,Jessica Shao,,,,,FALSE
-Bug,141941,[CE01] TRD-PL- Document management system，界面?示????,Misc.,Resolved,High,Phoebe Luo,,,,,FALSE
-Bug,141942,[CE01] TRD-OX - 切?系??言?，?面一直在加?中(文?管理),Misc.,Resolved,High,Olivia Xu,,,,,FALSE
-Bug,141948,[CE01] TRD-JS- 【Document Record】模?，更新附件，下???是原始文?,General,Resolved,High,Jessica Shao,,,,,FALSE
+Bug,143268,[CE01] TRD-PL- Dialog，存在保存成功/失敗時，提示信息的顯示方式錯誤,Misg.,Resolved,Medium,Phoebe Luo,,,,,FALSE
+Bug,143267,[CE01] TRD-PL- DMS，attachment的file info，create link的中文翻譯不正確,Misg.,Resolved,Medium,Phoebe Luo,,,,,FALSE
+Bug,143261,[CE01] TRD-PL- DMS，修改Read Only Recommended的值後不能正確保存,,Resolved,High,Phoebe Luo,,,,,FALSE
+Bug,143504,[CE01] TRD-JS-【DMS】Document Record – 打開某些單據，會有錯誤提示,General,Resolved,High,Jessica Shao,,,,,FALSE
+Bug,141941,[CE01] TRD-PL- Document management system，界面顯示問題匯總,Misc.,Resolved,High,Phoebe Luo,,,,,FALSE
+Bug,141942,[CE01] TRD-OX - 切換系統語言時，頁面一直在加載中(文檔管理),Misc.,Resolved,High,Olivia Xu,,,,,FALSE
+Bug,141948,[CE01] TRD-JS- 【Document Record】模塊，更新附件，下載時還是原始文檔,General,Resolved,High,Jessica Shao,,,,,FALSE
 Bug,141951,[CE01] TRD-PL- Document management system，File info中缺少字段,General,Resolved,High,Phoebe Luo,,,,,FALSE
-Bug,142899,[CE01] TRD-JS-【Document Change Record】?据批核完成后，Status仍然?In Progress,Misc.,Resolved,High,Jessica Shao,,,,,FALSE
-Bug,142876,"[CE01] TRD-PL- DMS,查看部分文件和folder的file info??",Severe,Resolved,High,Phoebe Luo,,,,,FALSE
-Bug,141972,[CE01] TRD-PL- Attachment，附件?除或者?除附件所在?据后，未?除DMS中的附件,General-Delete,Resolved,High,Phoebe Luo,,,,,FALSE
-Bug,141973,[CE01] TRD-JS- 【Document Record】模?，Duration保存失?,General,Resolved,High,Jessica Shao,,,,,FALSE
-Bug,142091,[CE01] TRD-JS-【Document Change Record】相???,AttachmentMovement,Active,High,Jessica Shao,,,Relate Bug 141984,,FALSE
-Bug,141988,[CE01] TRD-PL- 建?可以在DMS中??folder/文件的date Access、Archive、Subscription信息,General,Resolved,Medium,Phoebe Luo,,,,,FALSE
-Bug,142837,[ch01] 【模??限?定】中的?限“附件（移除）”后，模板/草稿的附件能?行?除操作,General,Resolved,Low,Cara Chen,,,,,FALSE
-Bug,142027,[CE01] TRD-PL- DMS，?文件移出??的目?，未正确收到??更新的提醒/Email,Subscription,Resolved,High,Phoebe Luo,,,,,FALSE
-Bug,142031,[CE01] TRD-PL- DMS，在??目?下新增/修改/?除folder，?触???提醒,Subscription,Resolved,High,Phoebe Luo,,,,,FALSE
-Bug,142134,[CE01] TRD-OX - 【文?管理】Reload按?有?候?效果,General-Reload,Resolved,Medium,Olivia Xu,,,,,FALSE
-Bug,142056,[CE01] TRD-PL- Attachment Setting，保存?置后，?构??自?收起,General,Resolved,Low,Phoebe Luo,,,,,FALSE
-Bug,142057,[CE01] TRD-JS- ??功能的相?建?,Subscription,Resolved,Medium,Jessica Shao,,,,,FALSE
-Bug,142062,[CE01] TRD-JS- 在【Document Record】中新建的文?，在【Document Change Record】中?有相???,Misc.,Resolved,High,Jessica Shao,,,,,FALSE
+Bug,142899,[CE01] TRD-JS-【Document Change Record】單據批核完成後，Status仍然為In Progress,Misc.,Resolved,High,Jessica Shao,,,,,FALSE
+Bug,142876,"[CE01] TRD-PL- DMS,查看部分文件和folder的file info報錯",Severe,Resolved,High,Phoebe Luo,,,,,FALSE
+Bug,141972,[CE01] TRD-PL- Attachment，附件刪除或者刪除附件所在單據後，未刪除DMS中的附件,General-Delete,Resolved,High,Phoebe Luo,,,,,FALSE
+Bug,141973,[CE01] TRD-JS- 【Document Record】模塊，Duration保存失敗,General,Resolved,High,Jessica Shao,,,,,FALSE
+Bug,142091,[CE01] TRD-JS-【Document Change Record】相關問題,AttachmentMovement,Active,High,Jessica Shao,,,Relate Bug 141984,,FALSE
+Bug,141988,[CE01] TRD-PL- 建議可以在DMS中編輯folder/文件的date Access、Archive、Subscription信息,General,Resolved,Medium,Phoebe Luo,,,,,FALSE
+Bug,142837,[ch01] 【模塊權限設定】中的權限“附件（移除）”後，模板/草稿的附件能執行刪除操作,General,Resolved,Low,Cara Chen,,,,,FALSE
+Bug,142027,[CE01] TRD-PL- DMS，將文件移出訂閱的目錄，未正確收到訂閱更新的提醒/Email,Subscription,Resolved,High,Phoebe Luo,,,,,FALSE
+Bug,142031,[CE01] TRD-PL- DMS，在訂閱目錄下新增/修改/刪除folder，會觸發訂閱提醒,Subscription,Resolved,High,Phoebe Luo,,,,,FALSE
+Bug,142134,[CE01] TRD-OX - 【文檔管理】Reload按鈕有時候無效果,General-Reload,Resolved,Medium,Olivia Xu,,,,,FALSE
+Bug,142056,[CE01] TRD-PL- Attachment Setting，保存設置後，結構樹會自動收起,General,Resolved,Low,Phoebe Luo,,,,,FALSE
+Bug,142057,[CE01] TRD-JS- 訂閱功能的相關建議,Subscription,Resolved,Medium,Jessica Shao,,,,,FALSE
+Bug,142062,[CE01] TRD-JS- 在【Document Record】中新建的文檔，在【Document Change Record】中沒有相關記錄,Misc.,Resolved,High,Jessica Shao,,,,,FALSE
 Bug,142128,[CE01] TRD-JS-【Document Record】- 是否可以有同名的Folder及Document,DupName,Active,Medium,Jessica Shao,,,Related Bug 142154,,FALSE
-Bug,142067,[CE01] TRD-JS-【Document Change Record】- ?取文???后，?法下?原文?,General-Reload,Resolved,High,Jessica Shao,,,,,FALSE
-Bug,142115,[CE01] TRD-JS-【Document Record】- 版本比?的相???,CompareVersion,Resolved,Medium,Jessica Shao,,,,,FALSE
-Bug,142154,[CE01] TRD-JS-DMS – 移?文件??，?有考?文件?不能重名的??,DupName,Active,High,Jessica Shao,,,Shine Email 20170221,,FALSE
-Bug,142085,[CE01] TRD-OX - 【文?管理】定位至Root文件??，??Download，?示文件?案不全,,Resolved,High,Olivia Xu,,,,,FALSE
-Bug,142086,[CE01] TRD-OX - 【文?管理】Download窗口，File Path???占用Password行的位置,Misc.,Resolved,Medium,Olivia Xu,,,,,FALSE
-Bug,142087,[CE01] TRD-OX - 【文?管理】Download多??案?，?入部分?案的正确密?，?有下?文?,,Resolved,High,Olivia Xu,,,,,FALSE
-Bug,142088,[CE01] TRD-OX - 【文?管理】建?更改Download窗口Title,,Resolved,Medium,Olivia Xu,,,,,FALSE
-Bug,142089,"[CE01] TRD-PL- Attachment setting,?取草稿??",,Resolved,High,Phoebe Luo,,,,,FALSE
-Bug,142090,[CE01] TRD-OX - 【文?管理】文件?包含多??案?，??Download，?有下?不需要密?的?案,,Resolved,High,Olivia Xu,,,,,FALSE
-Bug,142096,[CE01] TRD-PL- Attachment setting – version change highlight，部分字段不同未??,CompareVersion,Resolved,High,Phoebe Luo,,,,,FALSE
-Bug,142092,"[CE01] TRD-PL- Attachment setting,有修改?未保存?，切?到其他模??，?提示信息",,Resolved,Medium,Phoebe Luo,,,,,FALSE
-Bug,142084,[CE01] TRD-PL- DMS，子目?支持上?的文??型和大小可以比父目?的范?大,Misc.,Active,High,Phoebe Luo,,,Shine Email 20170221,,FALSE
-Bug,142097,[CE01] TRD-PL- Attachment setting，修改tag字段的值后，?影??史版本中的?据,,Resolved,High,Phoebe Luo,,,,,FALSE
-Bug,142105,[CE01] TRD-OX - 在Desktop更新DMS Widget后，在桌面上??刷新操作?效,General-Reload,Resolved,Medium,Olivia Xu,,,,,FALSE
-Bug,142104,[CE01] TRD-JS-【Document Change Record】- ?置了密?，但是??有更新到文?中,Misc.,Resolved,High,Jessica Shao,,,,,FALSE
-Bug,141984,[CE01] TRD-PL- DMS，如果移?附件位置，?原始?据中?法追查到附件的存?位置,AttachmentMovement,Active,High,Phoebe Luo,,,Shine Email 20170221,,FALSE
-Bug,142121,[CE01] TRD-JS-【Document Record】- 父文件?不能?除的提示?有加mess,General-Delete,Resolved,Medium,Jessica Shao,,,,,FALSE
-Task,142914,[DMS] 文?管理插件改?使用Windows Theme,Theme,Resolved,Unclassified,Calvin Tam,,,,,FALSE
-Bug,142132,[CE01] TRD-JS-【Document Record】- 使用已有?据建立草稿，在Draft列表中?有?据的相?信息,,Resolved,Medium,Jessica Shao,,,,,FALSE
-Bug,142066,[CE01] TRD-JS-【Document Record】-?用Archive，到了?描??，?置未生效,Archive,Resolved,High,Jessica Shao,,,,,FALSE
-Bug,142141,[CE01] TRD-JS-【Document Change Record】- ?据送批后，?有Approval??,Approval,Resolved,High,Jessica Shao,,,,,FALSE
-Bug,142147,[CE01] TRD-OX - 【文?管理】建?Upload Files?出窗口可以全屏?示,,Resolved,Low,Olivia Xu,,,,,FALSE
-Bug,141968,[CE01] TRD-PL- Attachment，上?或?除附件后，Audit Trail中的??不准确,General,Active,High,Phoebe Luo,,,Shine Email 20170221,,FALSE
-Bug,142157,[CE01] TRD-JS- Approval Setup中支持的DMS模?与流程模板中的不一致,,Resolved,High,Jessica Shao,,,,,FALSE
-Bug,142162,[CE01] TRD-JS- 【Document Change Record】模?，目前不支持Rename功能,,Resolved,Low,Jessica Shao,,,,,FALSE
-Bug,142178,[CE01] TRD-OX - 【文?管理】Display Options窗口Title?示重复,,Resolved,Low,Olivia Xu,,,,,FALSE
-Bug,142184,[CE01] TRD-OX - 【文?管理】文件??空??示Foldes first和Also Tree View??,Misc.,Resolved,Medium,Olivia Xu,,,,,FALSE
-Bug,142231,[CE01] TRD-PL- Attachment，一??据中?置??以上的附件密??，?面??,,Resolved,High,Phoebe Luo,,,,,FALSE
-Bug,142262,[CE01] TRD-JS-【Document Record】- 文件路??空,,Resolved,High,Jessica Shao,,,,,FALSE
+Bug,142067,[CE01] TRD-JS-【Document Change Record】- 讀取文檔記錄後，無法下載原文檔,General-Reload,Resolved,High,Jessica Shao,,,,,FALSE
+Bug,142115,[CE01] TRD-JS-【Document Record】- 版本比較的相關問題,CompareVersion,Resolved,Medium,Jessica Shao,,,,,FALSE
+Bug,142154,[CE01] TRD-JS-DMS – 移動文件夾時，沒有考慮文件夾不能重名的問題,DupName,Active,High,Jessica Shao,,,Shine Email 20170221,,FALSE
+Bug,142085,[CE01] TRD-OX - 【文檔管理】定位至Root文件夾時，點擊Download，顯示文件檔案不全,,Resolved,High,Olivia Xu,,,,,FALSE
+Bug,142086,[CE01] TRD-OX - 【文檔管理】Download窗口，File Path過長時佔用Password行的位置,Misc.,Resolved,Medium,Olivia Xu,,,,,FALSE
+Bug,142087,[CE01] TRD-OX - 【文檔管理】Download多個檔案時，輸入部分檔案的正確密碼，沒有下載文檔,,Resolved,High,Olivia Xu,,,,,FALSE
+Bug,142088,[CE01] TRD-OX - 【文檔管理】建議更改Download窗口Title,,Resolved,Medium,Olivia Xu,,,,,FALSE
+Bug,142089,"[CE01] TRD-PL- Attachment setting,讀取草稿報錯",,Resolved,High,Phoebe Luo,,,,,FALSE
+Bug,142090,[CE01] TRD-OX - 【文檔管理】文件夾包含多個檔案時，點擊Download，沒有下載不需要密碼的檔案,,Resolved,High,Olivia Xu,,,,,FALSE
+Bug,142096,[CE01] TRD-PL- Attachment setting – version change highlight，部分字段不同未標記,CompareVersion,Resolved,High,Phoebe Luo,,,,,FALSE
+Bug,142092,"[CE01] TRD-PL- Attachment setting,有修改項未保存時，切換到其他模塊時，無提示信息",,Resolved,Medium,Phoebe Luo,,,,,FALSE
+Bug,142084,[CE01] TRD-PL- DMS，子目錄支持上傳的文檔類型和大小可以比父目錄的範圍大,Misc.,Active,High,Phoebe Luo,,,Shine Email 20170221,,FALSE
+Bug,142097,[CE01] TRD-PL- Attachment setting，修改tag字段的值後，會影響歷史版本中的數據,,Resolved,High,Phoebe Luo,,,,,FALSE
+Bug,142105,[CE01] TRD-OX - 在Desktop更新DMS Widget後，在桌面上點擊刷新操作無效,General-Reload,Resolved,Medium,Olivia Xu,,,,,FALSE
+Bug,142104,[CE01] TRD-JS-【Document Change Record】- 設置了密碼，但是卻沒有更新到文檔中,Misc.,Resolved,High,Jessica Shao,,,,,FALSE
+Bug,141984,[CE01] TRD-PL- DMS，如果移動附件位置，從原始單據中無法追查到附件的存儲位置,AttachmentMovement,Active,High,Phoebe Luo,,,Shine Email 20170221,,FALSE
+Bug,142121,[CE01] TRD-JS-【Document Record】- 父文件夾不能刪除的提示沒有加mess,General-Delete,Resolved,Medium,Jessica Shao,,,,,FALSE
+Task,142914,[DMS] 文檔管理插件改為使用Windows Theme,Theme,Resolved,Unclassified,Calvin Tam,,,,,FALSE
+Bug,142132,[CE01] TRD-JS-【Document Record】- 使用已有單據建立草稿，在Draft列表中沒有單據的相關信息,,Resolved,Medium,Jessica Shao,,,,,FALSE
+Bug,142066,[CE01] TRD-JS-【Document Record】-啟用Archive，到了掃描時間，設置未生效,Archive,Resolved,High,Jessica Shao,,,,,FALSE
+Bug,142141,[CE01] TRD-JS-【Document Change Record】- 單據送批後，沒有Approval頁簽,Approval,Resolved,High,Jessica Shao,,,,,FALSE
+Bug,142147,[CE01] TRD-OX - 【文檔管理】建議Upload Files彈出窗口可以全屏顯示,,Resolved,Low,Olivia Xu,,,,,FALSE
+Bug,141968,[CE01] TRD-PL- Attachment，上傳或刪除附件後，Audit Trail中的記錄不準確,General,Active,High,Phoebe Luo,,,Shine Email 20170221,,FALSE
+Bug,142157,[CE01] TRD-JS- Approval Setup中支持的DMS模塊與流程模板中的不一致,,Resolved,High,Jessica Shao,,,,,FALSE
+Bug,142162,[CE01] TRD-JS- 【Document Change Record】模塊，目前不支持Rename功能,,Resolved,Low,Jessica Shao,,,,,FALSE
+Bug,142178,[CE01] TRD-OX - 【文檔管理】Display Options窗口Title顯示重複,,Resolved,Low,Olivia Xu,,,,,FALSE
+Bug,142184,[CE01] TRD-OX - 【文檔管理】文件夾為空時顯示Foldes first和Also Tree View選項,Misc.,Resolved,Medium,Olivia Xu,,,,,FALSE
+Bug,142231,[CE01] TRD-PL- Attachment，一個單據中設置兩個以上的附件密碼時，頁面報錯,,Resolved,High,Phoebe Luo,,,,,FALSE
+Bug,142262,[CE01] TRD-JS-【Document Record】- 文件路徑為空,,Resolved,High,Jessica Shao,,,,,FALSE
 Bug,142672,[CH01] Unable to download attachments in any record in any module,Severe,Resolved,High,Terry Yeung,,,,,FALSE
-Bug,142716,[CE01] TRD-JS-文?分享?接，在收到的系?提醒中，?法直接下?文?,Misc.,Resolved,Medium,Jessica Shao,,,,,FALSE
-Bug,142000,[CE01] TRD-PL- Document Record，Date Access????,Access,Resolved,High,Phoebe Luo,,,,,FALSE
-Bug,141927,[CE01] TRD-PL- Attachment，?附件指定目?，上?后，未在指定目?下新建子文件?,AttachmentMovement,Active,High,Phoebe Luo,,,Shine Email 20170222,,FALSE
-Task,142854,[DMS] ??功能?整 - 改??人行?,Subscription,Resolved,High,Calvin Tam,,,,,FALSE
-Bug,142078,[CE01] TRD-PL- DMS，部分含有文件的folder支持?除，部分不支持,General-Delete,Active,High,Phoebe Luo,,,Shine Email 20170228,,FALSE
-Bug,142052,[CE01] TRD-OX - 【文?管理】Search Option通?Full text搜索失?,Search,Active,High,Olivia Xu,,,,,TRUE
-Bug,141958,[CE01] TRD-PL- Document management system，支持搜索的?型不全,Search,Active,High,Phoebe Luo,,,,,TRUE
-Bug,141938,"[CE01] TRD-PL- Attachment , 附件的tag????",General,Active,High,Phoebe Luo,,,,,TRUE
-Bug,141918,[CE01] TRD-PL- Attachment，?置附件read only recommend?true，附件可以被修改或?除,Misc.,Active,High,Phoebe Luo,,,,,TRUE
+Bug,142716,[CE01] TRD-JS-文檔分享鏈接，在收到的系統提醒中，無法直接下載文檔,Misc.,Resolved,Medium,Jessica Shao,,,,,FALSE
+Bug,142000,[CE01] TRD-PL- Document Record，Date Access問題匯總,Access,Resolved,High,Phoebe Luo,,,,,FALSE
+Bug,141927,[CE01] TRD-PL- Attachment，為附件指定目錄，上傳後，未在指定目錄下新建子文件夾,AttachmentMovement,Active,High,Phoebe Luo,,,Shine Email 20170222,,FALSE
+Task,142854,[DMS] 訂閱功能調整 - 改為個人行為,Subscription,Resolved,High,Calvin Tam,,,,,FALSE
+Bug,142078,[CE01] TRD-PL- DMS，部分含有文件的folder支持刪除，部分不支持,General-Delete,Active,High,Phoebe Luo,,,Shine Email 20170228,,FALSE
+Bug,142052,[CE01] TRD-OX - 【文檔管理】Search Option通過Full text搜索失敗,Search,Active,High,Olivia Xu,,,,,TRUE
+Bug,141958,[CE01] TRD-PL- Document management system，支持搜索的類型不全,Search,Active,High,Phoebe Luo,,,,,TRUE
+Bug,141938,"[CE01] TRD-PL- Attachment , 附件的tag問題匯總",General,Active,High,Phoebe Luo,,,,,TRUE
+Bug,141918,[CE01] TRD-PL- Attachment，設置附件read only recommend為true，附件可以被修改或刪除,Misc.,Active,High,Phoebe Luo,,,,,TRUE
 Task,139775,[GE] Online help Tool Research,,Active,High,Calvin Tam,,,,,
-Bug,142894,[CE01] TRD-JS-更新的文?名?与已有Title不同?，建???是否需要更改Title,General,Resolved,Low,Jessica Shao,,,,,FALSE
+Bug,142894,[CE01] TRD-JS-更新的文檔名稱與已有Title不同時，建議詢問是否需要更改Title,General,Resolved,Low,Jessica Shao,,,,,FALSE
 Bug,142818,[CH01] Version Change Highlight cannot show the change in Attachments,CompareVersion,Resolved,High,Terry Yeung,,,,,FALSE
-Task,144284,[DMS] 修改文件流?取方式,,Active,High,Calvin Tam,,,,,TRUE
+Task,144284,[DMS] 修改文件流獲取方式,,Active,High,Calvin Tam,,,,,TRUE
 ,,,,emp,,,,,,,FALSE
 ,,,,emp,,,,,,,FALSE
 ,,,,emp,,,,,,,FALSE
